@@ -1,0 +1,19 @@
+#Internal package file, do not edit.
+#Mon Jun 24 17:42:20 EDT 2019
+1.base=/Users/davidma/Code/RemakeFinalBLE/Application/build/intermediates/merged_assets/debug/out
+2.path=signal.gif
+0.baseType=DIRECTORY
+3.baseType=DIRECTORY
+2.base=/Users/davidma/Code/RemakeFinalBLE/Application/build/intermediates/merged_assets/debug/out
+3.set=ASSET
+2.set=ASSET
+1.baseType=DIRECTORY
+3.path=motion_tracker.gif
+count=4
+1.set=ASSET
+0.path=discovering_animation.html
+3.base=/Users/davidma/Code/RemakeFinalBLE/Application/build/intermediates/merged_assets/debug/out
+0.set=ASSET
+0.base=/Users/davidma/Code/RemakeFinalBLE/Application/build/intermediates/merged_assets/debug/out
+2.baseType=DIRECTORY
+1.path=advertising_animation.html

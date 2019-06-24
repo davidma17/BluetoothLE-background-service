@@ -1,0 +1,112 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/davidma/Code/RemakeFinalBLE/Application/src/main/AndroidManifest.xml:16:1-54:12
+INJECTED from /Users/davidma/Code/RemakeFinalBLE/Application/src/main/AndroidManifest.xml:16:1-54:12
+INJECTED from /Users/davidma/Code/RemakeFinalBLE/Application/src/main/AndroidManifest.xml:16:1-54:12
+MERGED from [com.android.support:gridlayout-v7:23.0.0] /Users/davidma/.gradle/caches/transforms-2/files-2.1/b648ef7d796b7595b5e736a3588434e0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-v4:23.0.0] /Users/davidma/.gradle/caches/transforms-2/files-2.1/719a23b8bd72fa7edf54b253fe5f4586/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:cardview-v7:23.0.0] /Users/davidma/.gradle/caches/transforms-2/files-2.1/a4873cda47b1e542dd920419e5fb419f/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/davidma/Code/RemakeFinalBLE/Application/src/main/AndroidManifest.xml:16:1-54:12
+INJECTED from /Users/davidma/Code/RemakeFinalBLE/Application/src/main/AndroidManifest.xml:16:1-54:12
+	package
+		ADDED from /Users/davidma/Code/RemakeFinalBLE/Application/src/main/AndroidManifest.xml:17:5-48
+	android:versionName
+		ADDED from /Users/davidma/Code/RemakeFinalBLE/Application/src/main/AndroidManifest.xml:19:5-30
+		INJECTED from /Users/davidma/Code/RemakeFinalBLE/Application/src/main/AndroidManifest.xml
+		INJECTED from /Users/davidma/Code/RemakeFinalBLE/Application/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/davidma/Code/RemakeFinalBLE/Application/src/main/AndroidManifest.xml:16:11-69
+	android:versionCode
+		ADDED from /Users/davidma/Code/RemakeFinalBLE/Application/src/main/AndroidManifest.xml:18:5-28
+		INJECTED from /Users/davidma/Code/RemakeFinalBLE/Application/src/main/AndroidManifest.xml
+		INJECTED from /Users/davidma/Code/RemakeFinalBLE/Application/src/main/AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/davidma/Code/RemakeFinalBLE/Application/src/main/AndroidManifest.xml:23:5-80
+	android:name
+		ADDED from /Users/davidma/Code/RemakeFinalBLE/Application/src/main/AndroidManifest.xml:23:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/davidma/Code/RemakeFinalBLE/Application/src/main/AndroidManifest.xml:24:5-78
+	android:name
+		ADDED from /Users/davidma/Code/RemakeFinalBLE/Application/src/main/AndroidManifest.xml:24:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/davidma/Code/RemakeFinalBLE/Application/src/main/AndroidManifest.xml:25:5-80
+	android:name
+		ADDED from /Users/davidma/Code/RemakeFinalBLE/Application/src/main/AndroidManifest.xml:25:22-78
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /Users/davidma/Code/RemakeFinalBLE/Application/src/main/AndroidManifest.xml:26:5-74
+	android:name
+		ADDED from /Users/davidma/Code/RemakeFinalBLE/Application/src/main/AndroidManifest.xml:26:22-71
+uses-permission#android.permission.BLUETOOTH
+ADDED from /Users/davidma/Code/RemakeFinalBLE/Application/src/main/AndroidManifest.xml:27:5-68
+	android:name
+		ADDED from /Users/davidma/Code/RemakeFinalBLE/Application/src/main/AndroidManifest.xml:27:22-65
+uses-feature#android.hardware.bluetooth_le
+ADDED from /Users/davidma/Code/RemakeFinalBLE/Application/src/main/AndroidManifest.xml:29:5-31:36
+	android:required
+		ADDED from /Users/davidma/Code/RemakeFinalBLE/Application/src/main/AndroidManifest.xml:31:9-33
+	android:name
+		ADDED from /Users/davidma/Code/RemakeFinalBLE/Application/src/main/AndroidManifest.xml:30:9-53
+application
+ADDED from /Users/davidma/Code/RemakeFinalBLE/Application/src/main/AndroidManifest.xml:33:5-52:19
+MERGED from [com.android.support:gridlayout-v7:23.0.0] /Users/davidma/.gradle/caches/transforms-2/files-2.1/b648ef7d796b7595b5e736a3588434e0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:gridlayout-v7:23.0.0] /Users/davidma/.gradle/caches/transforms-2/files-2.1/b648ef7d796b7595b5e736a3588434e0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.0] /Users/davidma/.gradle/caches/transforms-2/files-2.1/719a23b8bd72fa7edf54b253fe5f4586/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.0] /Users/davidma/.gradle/caches/transforms-2/files-2.1/719a23b8bd72fa7edf54b253fe5f4586/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:cardview-v7:23.0.0] /Users/davidma/.gradle/caches/transforms-2/files-2.1/a4873cda47b1e542dd920419e5fb419f/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:cardview-v7:23.0.0] /Users/davidma/.gradle/caches/transforms-2/files-2.1/a4873cda47b1e542dd920419e5fb419f/AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from /Users/davidma/Code/RemakeFinalBLE/Application/src/main/AndroidManifest.xml:36:9-41
+	android:icon
+		ADDED from /Users/davidma/Code/RemakeFinalBLE/Application/src/main/AndroidManifest.xml:35:9-45
+	android:allowBackup
+		ADDED from /Users/davidma/Code/RemakeFinalBLE/Application/src/main/AndroidManifest.xml:34:9-35
+	android:theme
+		ADDED from /Users/davidma/Code/RemakeFinalBLE/Application/src/main/AndroidManifest.xml:37:9-40
+activity#com.example.android.bluetoothchat.MainActivity
+ADDED from /Users/davidma/Code/RemakeFinalBLE/Application/src/main/AndroidManifest.xml:38:9-47:20
+	android:label
+		ADDED from /Users/davidma/Code/RemakeFinalBLE/Application/src/main/AndroidManifest.xml:41:13-45
+	android:configChanges
+		ADDED from /Users/davidma/Code/RemakeFinalBLE/Application/src/main/AndroidManifest.xml:40:13-63
+	android:name
+		ADDED from /Users/davidma/Code/RemakeFinalBLE/Application/src/main/AndroidManifest.xml:39:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/davidma/Code/RemakeFinalBLE/Application/src/main/AndroidManifest.xml:42:13-46:29
+action#android.intent.action.MAIN
+ADDED from /Users/davidma/Code/RemakeFinalBLE/Application/src/main/AndroidManifest.xml:43:17-69
+	android:name
+		ADDED from /Users/davidma/Code/RemakeFinalBLE/Application/src/main/AndroidManifest.xml:43:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/davidma/Code/RemakeFinalBLE/Application/src/main/AndroidManifest.xml:45:17-77
+	android:name
+		ADDED from /Users/davidma/Code/RemakeFinalBLE/Application/src/main/AndroidManifest.xml:45:27-74
+activity#com.example.android.ble.BLEAdvertisingActivity
+ADDED from /Users/davidma/Code/RemakeFinalBLE/Application/src/main/AndroidManifest.xml:48:9-83
+	android:name
+		ADDED from /Users/davidma/Code/RemakeFinalBLE/Application/src/main/AndroidManifest.xml:48:19-80
+activity#com.example.android.ble.BLEDiscoveringActivity
+ADDED from /Users/davidma/Code/RemakeFinalBLE/Application/src/main/AndroidManifest.xml:49:9-51:78
+	android:label
+		ADDED from /Users/davidma/Code/RemakeFinalBLE/Application/src/main/AndroidManifest.xml:51:13-66
+	android:name
+		ADDED from /Users/davidma/Code/RemakeFinalBLE/Application/src/main/AndroidManifest.xml:50:13-74
+uses-sdk
+INJECTED from /Users/davidma/Code/RemakeFinalBLE/Application/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/davidma/Code/RemakeFinalBLE/Application/src/main/AndroidManifest.xml
+INJECTED from /Users/davidma/Code/RemakeFinalBLE/Application/src/main/AndroidManifest.xml
+MERGED from [com.android.support:gridlayout-v7:23.0.0] /Users/davidma/.gradle/caches/transforms-2/files-2.1/b648ef7d796b7595b5e736a3588434e0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:gridlayout-v7:23.0.0] /Users/davidma/.gradle/caches/transforms-2/files-2.1/b648ef7d796b7595b5e736a3588434e0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.0.0] /Users/davidma/.gradle/caches/transforms-2/files-2.1/719a23b8bd72fa7edf54b253fe5f4586/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.0.0] /Users/davidma/.gradle/caches/transforms-2/files-2.1/719a23b8bd72fa7edf54b253fe5f4586/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:23.0.0] /Users/davidma/.gradle/caches/transforms-2/files-2.1/a4873cda47b1e542dd920419e5fb419f/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:23.0.0] /Users/davidma/.gradle/caches/transforms-2/files-2.1/a4873cda47b1e542dd920419e5fb419f/AndroidManifest.xml:20:5-43
+INJECTED from /Users/davidma/Code/RemakeFinalBLE/Application/src/main/AndroidManifest.xml
+INJECTED from /Users/davidma/Code/RemakeFinalBLE/Application/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/davidma/Code/RemakeFinalBLE/Application/src/main/AndroidManifest.xml
+		ADDED from /Users/davidma/Code/RemakeFinalBLE/Application/src/main/AndroidManifest.xml
+		INJECTED from /Users/davidma/Code/RemakeFinalBLE/Application/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/davidma/Code/RemakeFinalBLE/Application/src/main/AndroidManifest.xml
+		ADDED from /Users/davidma/Code/RemakeFinalBLE/Application/src/main/AndroidManifest.xml
+		INJECTED from /Users/davidma/Code/RemakeFinalBLE/Application/src/main/AndroidManifest.xml
