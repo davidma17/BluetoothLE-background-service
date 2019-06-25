@@ -252,15 +252,6 @@ public class BLECentralHelper {
                         mBleChatEvents.onMessage(characteristic.getStringValue(0));
                     }
                 });
-//            } else if (BLEChatProfile.CHARACTERISTIC_RFCOMM_TRANSFER_UUID.equals(characteristic.getUuid())) {
-//                mHandler.post(new Runnable() {
-//                    @Override
-//                    public void run() {
-//                        mRfcommSocketAddress = characteristic.getStringValue(0);
-////                        connect2RfcommSocket();
-////                        mBleChatEvents.onTransfer(characteristic.getStringValue(0));
-//                    }
-//                });
             } else if (BLEChatProfile.CHARACTERISTIC_BLE_TRANSFER_UUID.equals(characteristic.getUuid())) {
                 mHandler.post(new Runnable() {
                     @Override

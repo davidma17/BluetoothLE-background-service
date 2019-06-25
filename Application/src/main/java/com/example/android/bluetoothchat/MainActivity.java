@@ -27,6 +27,7 @@ import android.view.MenuItem;
 import android.widget.ViewAnimator;
 
 import com.example.android.ble.MyService;
+import com.example.android.ble.RestartedActivity;
 import com.example.android.common.activities.SampleActivityBase;
 import com.example.android.common.logger.Log;
 import com.example.android.common.logger.LogFragment;

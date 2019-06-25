@@ -32,6 +32,8 @@ public class MyService extends Service {
         super.onStartCommand(intent, flags, startId);
         startTimer();
         makeToast("onStartCommand!");
+        RestartedActivity ra = new RestartedActivity();
+        ra.logTest();
         return START_STICKY;
     }
 
