@@ -19,85 +19,12 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/build-info/debug/build-info.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/build-info/debug/build-info.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/ble/BLECentralHelper$2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/ble/BLECentralHelper$2$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/ble/BLECentralHelper$2$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/ble/BLECentralHelper$2$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/ble/BLECentralHelper$2$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/ble/BLECentralHelper$2$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/ble/BLECentralHelper$2$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/ble/BLECentralHelper$2$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/ble/BLECentralHelper$2$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/ble/BLECentralHelper$2$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/ble/BLECentralHelper$2$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/ble/BLECentralHelper$2$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/ble/BLECentralHelper$2$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/ble/BLECentralHelper$2$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/ble/BLECentralHelper$2$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/ble/BLECentralHelper$2$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/ble/BLECentralHelper$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/ble/BLECentralHelper$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/ble/BLECentralHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/ble/BLECentralHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/ble/MyService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/ble/MyService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/ble/RestartedActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/ble/RestartedActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/bluetoothchat/BluetoothChatFragment$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/bluetoothchat/BluetoothChatFragment$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/bluetoothchat/BluetoothChatFragment$4$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/bluetoothchat/BluetoothChatFragment$4$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/bluetoothchat/BluetoothChatFragment$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/bluetoothchat/BluetoothChatFragment$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/bluetoothchat/BluetoothChatFragment$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/bluetoothchat/BluetoothChatFragment$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/bluetoothchat/BluetoothChatFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/bluetoothchat/BluetoothChatFragment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/ir_slices/debug/package_slice_0/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental/ir_slices/debug/package_slice_0/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/ir_slices/debug/package_slice_3/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental/ir_slices/debug/package_slice_3/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/ble/BLECentralHelper$2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/ble/BLECentralHelper$2$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/ble/BLECentralHelper$2$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/ble/BLECentralHelper$2$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/ble/BLECentralHelper$2$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/ble/BLECentralHelper$2$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/ble/BLECentralHelper$2$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/ble/BLECentralHelper$2$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/ble/BLECentralHelper$2$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/ble/BLECentralHelper$2$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/ble/BLECentralHelper$2$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/ble/BLECentralHelper$2$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/ble/BLECentralHelper$2$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/ble/BLECentralHelper$2$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/ble/BLECentralHelper$2$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/ble/BLECentralHelper$2$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/ble/BLECentralHelper$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/ble/BLECentralHelper$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/ble/BLECentralHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/ble/BLECentralHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/ble/MyService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/ble/MyService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/ble/RestartedActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/ble/RestartedActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/bluetoothchat/BluetoothChatFragment$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/bluetoothchat/BluetoothChatFragment$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/bluetoothchat/BluetoothChatFragment$4$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/bluetoothchat/BluetoothChatFragment$4$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/bluetoothchat/BluetoothChatFragment$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/bluetoothchat/BluetoothChatFragment$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/bluetoothchat/BluetoothChatFragment$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/bluetoothchat/BluetoothChatFragment$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/bluetoothchat/BluetoothChatFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/bluetoothchat/BluetoothChatFragment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/split-apk/debug/slices/slice_0.apk" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/split-apk/debug/slices/slice_0.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/split-apk/debug/slices/slice_3.apk" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/split-apk/debug/slices/slice_3.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/5/com/example/android/bluetoothchat/BluetoothChatFragment$3.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/5/com/example/android/bluetoothchat/BluetoothChatFragment$3.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/5/com/example/android/bluetoothchat/BluetoothChatFragment$4$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/5/com/example/android/bluetoothchat/BluetoothChatFragment$4$1.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/5/com/example/android/bluetoothchat/BluetoothChatFragment$4.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/5/com/example/android/bluetoothchat/BluetoothChatFragment$4.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/5/com/example/android/bluetoothchat/BluetoothChatFragment$5.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/5/com/example/android/bluetoothchat/BluetoothChatFragment$5.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/5/com/example/android/bluetoothchat/BluetoothChatFragment.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/5/com/example/android/bluetoothchat/BluetoothChatFragment.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/8/com/example/android/ble/BLECentralHelper$2$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/8/com/example/android/ble/BLECentralHelper$2$1.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/8/com/example/android/ble/BLECentralHelper$2$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/8/com/example/android/ble/BLECentralHelper$2$2.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/8/com/example/android/ble/BLECentralHelper$2$3.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/8/com/example/android/ble/BLECentralHelper$2$3.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/8/com/example/android/ble/BLECentralHelper$2$4.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/8/com/example/android/ble/BLECentralHelper$2$4.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/8/com/example/android/ble/BLECentralHelper$2$5.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/8/com/example/android/ble/BLECentralHelper$2$5.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/8/com/example/android/ble/BLECentralHelper$2$6.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/8/com/example/android/ble/BLECentralHelper$2$6.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/8/com/example/android/ble/BLECentralHelper$2$7.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/8/com/example/android/ble/BLECentralHelper$2$7.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/8/com/example/android/ble/BLECentralHelper$2$8.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/8/com/example/android/ble/BLECentralHelper$2$8.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/8/com/example/android/ble/BLECentralHelper$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/8/com/example/android/ble/BLECentralHelper$2.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/8/com/example/android/ble/BLECentralHelper.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/8/com/example/android/ble/BLECentralHelper.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/8/com/example/android/ble/MyService.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/8/com/example/android/ble/MyService.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/8/com/example/android/ble/RestartedActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/8/com/example/android/ble/RestartedActivity.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexMerger/debug/0/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexMerger/debug/0/classes.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexMerger/debug/3/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexMerger/debug/3/classes.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/ble/BLECentralHelper$2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/ble/BLECentralHelper$2$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/ble/BLECentralHelper$2$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/ble/BLECentralHelper$2$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/ble/BLECentralHelper$2$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/ble/BLECentralHelper$2$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/ble/BLECentralHelper$2$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/ble/BLECentralHelper$2$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/ble/BLECentralHelper$2$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/ble/BLECentralHelper$2$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/ble/BLECentralHelper$2$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/ble/BLECentralHelper$2$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/ble/BLECentralHelper$2$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/ble/BLECentralHelper$2$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/ble/BLECentralHelper$2$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/ble/BLECentralHelper$2$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/ble/BLECentralHelper$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/ble/BLECentralHelper$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/ble/BLECentralHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/ble/BLECentralHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/ble/MyService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/ble/MyService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/ble/RestartedActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/ble/RestartedActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/bluetoothchat/BluetoothChatFragment$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/bluetoothchat/BluetoothChatFragment$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/bluetoothchat/BluetoothChatFragment$4$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/bluetoothchat/BluetoothChatFragment$4$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/bluetoothchat/BluetoothChatFragment$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/bluetoothchat/BluetoothChatFragment$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/bluetoothchat/BluetoothChatFragment$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/bluetoothchat/BluetoothChatFragment$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/bluetoothchat/BluetoothChatFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/bluetoothchat/BluetoothChatFragment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/src/main/java/com/example/android/ble/BLECentralHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/ble/BLECentralHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/src/main/java/com/example/android/ble/MyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/ble/MyService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/src/main/java/com/example/android/ble/RestartedActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/ble/RestartedActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothchat/BluetoothChatFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothchat/BluetoothChatFragment.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -129,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/ble/RestartedActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+            <state relative-caret-position="192">
+              <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#200#201#0" expanded="true" />
@@ -146,8 +73,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/ble/BLECentralHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="171" selection-start-line="171" selection-end-line="171" />
+            <state relative-caret-position="343">
+              <caret line="298" selection-start-line="298" selection-end-line="298" />
               <folding>
                 <element signature="e#5063#5064#0" expanded="true" />
                 <element signature="e#5089#5090#0" expanded="true" />
@@ -157,6 +84,7 @@
                 <element signature="e#5217#5218#0" expanded="true" />
                 <element signature="e#8823#9008#0" expanded="true" />
                 <element signature="e#9007#9008#0" expanded="true" />
+                <element signature="e#11566#11567#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -171,11 +99,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothchat/BluetoothChatFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="325" column="30" lean-forward="true" selection-start-line="325" selection-start-column="30" selection-end-line="325" selection-end-column="30" />
+            <state relative-caret-position="206">
+              <caret line="325" column="30" selection-start-line="325" selection-start-column="30" selection-end-line="325" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#10247#10307#0" expanded="true" />
@@ -191,7 +119,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/ble/MyService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
+            <state relative-caret-position="325">
               <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -238,8 +166,9 @@
       <find>BLECentralH</find>
       <find>mbluetoo</find>
       <find>mblechatevents</find>
-      <find>null</find>
       <find>send data</find>
+      <find>null</find>
+      <find>send</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -258,9 +187,9 @@
         <option value="$PROJECT_DIR$/Application/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothchat/MainActivity.java" />
         <option value="$PROJECT_DIR$/Application/src/main/java/com/example/android/ble/BLECentralHelper.java" />
-        <option value="$PROJECT_DIR$/Application/src/main/java/com/example/android/ble/RestartedActivity.java" />
         <option value="$PROJECT_DIR$/Application/src/main/java/com/example/android/ble/MyService.java" />
         <option value="$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothchat/BluetoothChatFragment.java" />
+        <option value="$PROJECT_DIR$/Application/src/main/java/com/example/android/ble/RestartedActivity.java" />
       </list>
     </option>
   </component>
@@ -740,51 +669,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/ble/MyService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/ble/Restarter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/ble/RestartedActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#200#201#0" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/ble/BLECentralHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="171" selection-start-line="171" selection-end-line="171" />
-          <folding>
-            <element signature="e#5063#5064#0" expanded="true" />
-            <element signature="e#5089#5090#0" expanded="true" />
-            <element signature="e#5131#5132#0" expanded="true" />
-            <element signature="e#5157#5158#0" expanded="true" />
-            <element signature="e#5191#5192#0" expanded="true" />
-            <element signature="e#5217#5218#0" expanded="true" />
-            <element signature="e#8823#9008#0" expanded="true" />
-            <element signature="e#9007#9008#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -803,8 +693,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/bluetoothchat/BluetoothChatFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="325" column="30" lean-forward="true" selection-start-line="325" selection-start-column="30" selection-end-line="325" selection-end-column="30" />
+        <state relative-caret-position="206">
+          <caret line="325" column="30" selection-start-line="325" selection-start-column="30" selection-end-line="325" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#10247#10307#0" expanded="true" />
@@ -812,6 +702,46 @@
             <element signature="e#12723#12724#0" expanded="true" />
             <element signature="e#17653#18106#0" expanded="true" />
             <element signature="e#18105#18106#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/ble/BLECentralHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="298" selection-start-line="298" selection-end-line="298" />
+          <folding>
+            <element signature="e#5063#5064#0" expanded="true" />
+            <element signature="e#5089#5090#0" expanded="true" />
+            <element signature="e#5131#5132#0" expanded="true" />
+            <element signature="e#5157#5158#0" expanded="true" />
+            <element signature="e#5191#5192#0" expanded="true" />
+            <element signature="e#5217#5218#0" expanded="true" />
+            <element signature="e#8823#9008#0" expanded="true" />
+            <element signature="e#9007#9008#0" expanded="true" />
+            <element signature="e#11566#11567#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/ble/MyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/ble/RestartedActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
           </folding>
         </state>
       </provider>

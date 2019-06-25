@@ -6,26 +6,23 @@
     density="xhdpi"
     format="10"
     plugin-version="3.4.1"
-    timestamp="1561494508431"
+    timestamp="1561495554925"
     token="8475865499365311408"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="455" />
+        duration="340" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="52" />
+        duration="7" />
     <task
         name="verifier"
-        duration="65" />
+        duration="5" />
 
-    <artifact
-        location="/Users/davidma/Code/RemakeFinalBLE/Application/build/intermediates/split-apk/debug/slices/slice_0.apk"
-        type="SPLIT" />
     <artifact
         location="/Users/davidma/Code/RemakeFinalBLE/Application/build/intermediates/split-apk/debug/slices/slice_3.apk"
         type="SPLIT" />
@@ -34,6 +31,9 @@
         type="SPLIT" />
     <artifact
         location="/Users/davidma/Code/RemakeFinalBLE/Application/build/intermediates/split-apk/debug/slices/slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/davidma/Code/RemakeFinalBLE/Application/build/intermediates/split-apk/debug/slices/slice_0.apk"
         type="SPLIT" />
     <artifact
         location="/Users/davidma/Code/RemakeFinalBLE/Application/build/intermediates/split-apk/debug/dep/dependencies.apk"
@@ -62,11 +62,8 @@
 
     <build
         build-mode="FULL"
-        timestamp="1561494508431"
+        timestamp="1561495554925"
         verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="/Users/davidma/Code/RemakeFinalBLE/Application/build/intermediates/split-apk/debug/slices/slice_0.apk"
-            type="SPLIT" />
         <artifact
             location="/Users/davidma/Code/RemakeFinalBLE/Application/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
@@ -75,6 +72,9 @@
             type="SPLIT" />
         <artifact
             location="/Users/davidma/Code/RemakeFinalBLE/Application/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/davidma/Code/RemakeFinalBLE/Application/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
             location="/Users/davidma/Code/RemakeFinalBLE/Application/build/intermediates/split-apk/debug/dep/dependencies.apk"
