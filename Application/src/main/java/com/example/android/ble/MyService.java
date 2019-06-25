@@ -1,5 +1,6 @@
 package com.example.android.ble;
 
+import android.app.Notification;
 import android.app.Service;
 import android.content.Intent;
 import android.os.IBinder;
@@ -12,16 +13,17 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 public class MyService extends Service {
-    public int counter=0;
+    public int counter = 0;
 
     @Override
     public void onCreate() {
         super.onCreate();
-        makeToast();
+        startForeground(1, new Notification());
+        makeToast("onCreate!");
     }
 
-    public void makeToast(){
-        Toast.makeText(getApplicationContext(),"Hello!",Toast.LENGTH_SHORT).show();
+    public void makeToast(String msg){
+        Toast.makeText(getApplicationContext(),msg,Toast.LENGTH_SHORT).show();
     }
 
 
@@ -29,6 +31,7 @@ public class MyService extends Service {
     public int onStartCommand(Intent intent, int flags, int startId) {
         super.onStartCommand(intent, flags, startId);
         startTimer();
+        makeToast("onStartCommand!");
         return START_STICKY;
     }
 
