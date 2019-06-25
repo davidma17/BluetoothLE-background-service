@@ -43,15 +43,10 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.android.ble.BLEAdvertisingActivity;
-import com.example.android.ble.BLECentralChatEvents;
 import com.example.android.ble.BLECentralHelper;
+import com.example.android.ble.BLECentralChatEvents;
 import com.example.android.ble.BLEDiscoveringActivity;
 import com.example.android.ble.BLEMode;
-//import com.example.android.ble.BLEAdvertisingActivity;
-//import com.example.android.ble.BLECentralHelper;
-//import com.example.android.ble.BLECentralChatEvents;
-//import com.example.android.ble.BLEDiscoveringActivity;
-//import com.example.android.ble.BLEPeripheralChatEvents;
 import com.example.android.ble.BLEPeripheralChatEvents;
 import com.example.android.ble.BLEPeripheralHelper;
 import com.example.android.common.logger.Log;
@@ -322,9 +317,9 @@ public class BluetoothChatFragment extends Fragment {
         public void handleMessage(Message msg) {
             FragmentActivity activity = getActivity();
             switch (msg.what) {
-//                case Constants.MESSAGE_STATE_CHANGE:
-//                    setState(msg.arg1);
-//                    break;
+                case Constants.MESSAGE_STATE_CHANGE:
+                    setState(msg.arg1);
+                    break;
                 case Constants.MESSAGE_WRITE:
                     byte[] writeBuf = (byte[]) msg.obj;
                     // construct a string from the buffer
@@ -406,6 +401,7 @@ public class BluetoothChatFragment extends Fragment {
                 startScanning();
                 return true;
             }
+
         }
         return false;
     }
@@ -503,7 +499,7 @@ public class BluetoothChatFragment extends Fragment {
                     @Override
                     public void run() {
 //                        BLECentralHelper.getInstance().changeMtu(256);
-                        sendMessageViaBLE("/name test");
+                        sendMessageViaBLE("/name testName");
                         sendMessageViaBLE("testing");
                         showConnectedName(mConnectedDeviceName);
                         showStatus(BluetoothChatService.STATE_CONNECTED);
