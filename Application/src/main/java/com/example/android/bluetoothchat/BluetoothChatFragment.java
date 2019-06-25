@@ -43,6 +43,9 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.android.ble.BLEAdvertisingActivity;
+import com.example.android.ble.BLECentralChatEvents;
+import com.example.android.ble.BLECentralHelper;
+import com.example.android.ble.BLEDiscoveringActivity;
 import com.example.android.ble.BLEMode;
 //import com.example.android.ble.BLEAdvertisingActivity;
 //import com.example.android.ble.BLECentralHelper;
@@ -354,33 +357,33 @@ public class BluetoothChatFragment extends Fragment {
     };
 
 
-//    public void onActivityResult(int requestCode, int resultCode, Intent data) {
-//        switch (requestCode) {
-//            case REQUEST_ENABLE_BT:
-//                // When the request to enable Bluetooth returns
-//                if (resultCode == Activity.RESULT_OK) {
-//                    // Bluetooth is now enabled, so set up a chat session
-//                    setupChat();
-//                } else {
-//                    // User did not enable Bluetooth or an error occurred
-//                    Log.d(TAG, "BT not enabled");
-//                    Toast.makeText(getActivity(), R.string.bt_not_enabled_leaving,
-//                            Toast.LENGTH_SHORT).show();
-//                    getActivity().finish();
-//                }
-//                break;
-//            case BLE_REQUEST_CONNECT_DEVICE:
-//                if (resultCode == Activity.RESULT_OK) {
-//                    connectBleDevice(data);
-//                }
-//                break;
-//            case BLE_REQUEST_DEVICE_CONNECTING:
-//                if (resultCode == Activity.RESULT_OK) {
-//                    bleDeviceConnecting(data);
-//                }
-//                break;
-//        }
-//    }
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        switch (requestCode) {
+            case REQUEST_ENABLE_BT:
+                // When the request to enable Bluetooth returns
+                if (resultCode == Activity.RESULT_OK) {
+                    // Bluetooth is now enabled, so set up a chat session
+                    setupChat();
+                } else {
+                    // User did not enable Bluetooth or an error occurred
+                    Log.d(TAG, "BT not enabled");
+                    Toast.makeText(getActivity(), R.string.bt_not_enabled_leaving,
+                            Toast.LENGTH_SHORT).show();
+                    getActivity().finish();
+                }
+                break;
+            case BLE_REQUEST_CONNECT_DEVICE:
+                if (resultCode == Activity.RESULT_OK) {
+                    connectBleDevice(data);
+                }
+                break;
+            case BLE_REQUEST_DEVICE_CONNECTING:
+                if (resultCode == Activity.RESULT_OK) {
+                    bleDeviceConnecting(data);
+                }
+                break;
+        }
+    }
 
     @Override
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
@@ -399,10 +402,10 @@ public class BluetoothChatFragment extends Fragment {
                 startAdvertising();
                 return true;
             }
-//            case R.id.ble_discover: {
-//                startScanning();
-//                return true;
-//            }
+            case R.id.ble_discover: {
+                startScanning();
+                return true;
+            }
         }
         return false;
     }
@@ -423,19 +426,19 @@ public class BluetoothChatFragment extends Fragment {
         Intent advertisementIntent = new Intent(getContext(), BLEAdvertisingActivity.class);
         startActivityForResult(advertisementIntent, BLE_REQUEST_DEVICE_CONNECTING);
     }
-//
-//    private void startScanning() {
-//        Intent scanningIntent = new Intent(getActivity(), BLEDiscoveringActivity.class);
-//        startActivityForResult(scanningIntent, BLE_REQUEST_CONNECT_DEVICE);
-//    }
+
+    private void startScanning() {
+        Intent scanningIntent = new Intent(getActivity(), BLEDiscoveringActivity.class);
+        startActivityForResult(scanningIntent, BLE_REQUEST_CONNECT_DEVICE);
+    }
 
     private synchronized void sendMessageViaBLE(String message) {
         // Check that there's actually something to send
         if (message.length() > 0) {
             if (mBleMode == BLEMode.PERIPHERAL) {
                 BLEPeripheralHelper.getInstance().send(message);
-//            } else if (mBleMode == BLEMode.CENTRAL) {
-//                BLECentralHelper.getInstance().send(message);
+            } else if (mBleMode == BLEMode.CENTRAL) {
+                BLECentralHelper.getInstance().send(message);
             }
             showOutgoingMessage(message);
             // Reset out string buffer to zero and clear the edit text field
@@ -443,96 +446,96 @@ public class BluetoothChatFragment extends Fragment {
             mOutEditText.setText(mOutStringBuffer);
         }
     }
-//    /**
-//     * [Central device role]
-//     * <p>
-//     * Connect to a Peripheral device
-//     *
-//     * @param data
-//     */
-//    private void connectBleDevice(Intent data) {
-//        mBleMode = BLEMode.CENTRAL;
-//        if (mChatService != null)
-//            mChatService.stop();
-//        mConnectedDeviceName = data.getExtras().getString(BLEDiscoveringActivity.EXTRA_DEVICE_NAME);
-//        String address = data.getExtras().getString(BLEDiscoveringActivity.EXTRA_DEVICE_ADDRESS);
-//        BluetoothDevice device = mBluetoothAdapter.getRemoteDevice(address);
-//        showStatus(BluetoothChatService.STATE_CONNECTING);
-//        BLECentralHelper.getInstance().connect(this.getContext(), device, mBLEChatEvents);
-//    }
-//
-//
-//    private BLECentralChatEvents mBLEChatEvents = new BLECentralChatEvents() {
-//        private Object mLock = new Object();
-//
-//        @Override
-//        public void onVersion(String version) {
-//            synchronized (mLock) {
-//                showInfo("Version: " + version);
-//            }
-//        }
-//
-//        @Override
-//        public void onDescription(String description) {
-//            synchronized (mLock) {
-//                showIncomingMessage("Description: " + description);
-//            }
-//        }
-//
-//        @Override
-//        public void onMessage(String msg) {
-//            synchronized (mLock) {
-//                processIncomingMsg(msg);
-//            }
-//        }
-//
-//        @Override
-//        public void onInfo(String info) {
-//            synchronized (mLock) {
-//                showInfo(info);
-//            }
-//        }
-//
-//        @Override
-//        public void onConnect() {
-//            synchronized (mLock) {
-//                mHandler.postDelayed(new Runnable() {
-//                    @Override
-//                    public void run() {
-////                        BLECentralHelper.getInstance().changeMtu(256);
-//                        sendMessageViaBLE("/name testName");
-//                        sendMessageViaBLE("testing");
-//                        showConnectedName(mConnectedDeviceName);
-//                        showStatus(BluetoothChatService.STATE_CONNECTED);
-//                    }
-//                }, 2000);
-//            }
-//        }
-//
-//        @Override
-//        public void onDisconnect() {
-//            synchronized (mLock) {
-//                Message msg = mHandler.obtainMessage(Constants.MESSAGE_TOAST);
-//                Bundle bundle = new Bundle();
-//                bundle.putString(Constants.TOAST, new String("[!] Disconnected"));
-//                msg.setData(bundle);
-//                mHandler.sendMessage(msg);
-//
-//                showStatus(BluetoothChatService.STATE_NONE);
-//            }
-//        }
-//
-//        @Override
-//        public void onConnectionError(String error) {
-//            synchronized (mLock) {
-//                showStatus(BluetoothChatService.STATE_NONE);
-//                showInfo("[!] Error : " + error);
-//
-//            }
-//        }
-//    };
-//
-//
+    /**
+     * [Central device role]
+     * <p>
+     * Connect to a Peripheral device
+     *
+     * @param data
+     */
+    private void connectBleDevice(Intent data) {
+        mBleMode = BLEMode.CENTRAL;
+        if (mChatService != null)
+            mChatService.stop();
+        mConnectedDeviceName = data.getExtras().getString(BLEDiscoveringActivity.EXTRA_DEVICE_NAME);
+        String address = data.getExtras().getString(BLEDiscoveringActivity.EXTRA_DEVICE_ADDRESS);
+        BluetoothDevice device = mBluetoothAdapter.getRemoteDevice(address);
+        showStatus(BluetoothChatService.STATE_CONNECTING);
+        BLECentralHelper.getInstance().connect(this.getContext(), device, mBLEChatEvents);
+    }
+
+
+    private BLECentralChatEvents mBLEChatEvents = new BLECentralChatEvents() {
+        private Object mLock = new Object();
+
+        @Override
+        public void onVersion(String version) {
+            synchronized (mLock) {
+                showInfo("Version: " + version);
+            }
+        }
+
+        @Override
+        public void onDescription(String description) {
+            synchronized (mLock) {
+                showIncomingMessage("Description: " + description);
+            }
+        }
+
+        @Override
+        public void onMessage(String msg) {
+            synchronized (mLock) {
+                processIncomingMsg(msg);
+            }
+        }
+
+        @Override
+        public void onInfo(String info) {
+            synchronized (mLock) {
+                showInfo(info);
+            }
+        }
+
+        @Override
+        public void onConnect() {
+            synchronized (mLock) {
+                mHandler.postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+//                        BLECentralHelper.getInstance().changeMtu(256);
+                        sendMessageViaBLE("/name test");
+                        sendMessageViaBLE("testing");
+                        showConnectedName(mConnectedDeviceName);
+                        showStatus(BluetoothChatService.STATE_CONNECTED);
+                    }
+                }, 2000);
+            }
+        }
+
+        @Override
+        public void onDisconnect() {
+            synchronized (mLock) {
+                Message msg = mHandler.obtainMessage(Constants.MESSAGE_TOAST);
+                Bundle bundle = new Bundle();
+                bundle.putString(Constants.TOAST, new String("[!] Disconnected"));
+                msg.setData(bundle);
+                mHandler.sendMessage(msg);
+
+                showStatus(BluetoothChatService.STATE_NONE);
+            }
+        }
+
+        @Override
+        public void onConnectionError(String error) {
+            synchronized (mLock) {
+                showStatus(BluetoothChatService.STATE_NONE);
+                showInfo("[!] Error : " + error);
+
+            }
+        }
+    };
+
+
     /**
      * [Peripheral device role]
      * <p>
