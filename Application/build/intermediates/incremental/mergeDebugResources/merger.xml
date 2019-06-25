@@ -17,20 +17,20 @@
         <item name="android:shadowDy">-6.5</item>
     </style></file><file path="/Users/davidma/Code/RemakeFinalBLE/Application/src/main/res/values/dimens.xml" qualifiers=""><dimen name="activity_horizontal_margin">16dp</dimen><dimen name="activity_vertical_margin">16dp</dimen></file><file path="/Users/davidma/Code/RemakeFinalBLE/Application/src/main/res/values/base-strings.xml" qualifiers=""><string name="app_name">BluetoothChat</string><string name="intro_message">
         <![CDATA[
-        
-            Test.
-            <!--This application allows two Android devices to carry out two-way text chat over-->
-            <!--Bluetooth Low Energy or Classic Bluetooth. It demonstrates all the fundamental-->
-            <!--BluetoothLE API capabilites, such as:-->
-              <!--(1) Scanning for other Bluetooth devices-->
-              <!--(2) Discovering BLE nearby devices that are advertising-->
-              <!--(3) Advertise the Chat service to nearby devices-->
-              <!--(4) Querying the local Bluetooth adapter for paired Bluetooth devices-->
-              <!--(5) Establishing RFCOMM channels/sockets-->
-              <!--(6) Connecting to a remote device-->
-              <!--(7) Transfering data over Bluetooth-->
-            <!---->
-        
+
+
+            This application allows two Android devices to carry out two-way text chat over
+            Bluetooth Low Energy or Classic Bluetooth. It demonstrates all the fundamental
+            BluetoothLE API capabilites, such as:
+              (1) Scanning for other Bluetooth devices
+              (2) Discovering BLE nearby devices that are advertising
+              (3) Advertise the Chat service to nearby devices
+              (4) Querying the local Bluetooth adapter for paired Bluetooth devices
+              (5) Establishing RFCOMM channels/sockets
+              (6) Connecting to a remote device
+              (7) Transfering data over Bluetooth
+
+
         ]]>
     </string></file><file path="/Users/davidma/Code/RemakeFinalBLE/Application/src/main/res/values/strings.xml" qualifiers=""><string name="send">Send</string><string name="not_connected">You are not connected to a device</string><string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving Bluetooth Chat.</string><string name="title_connecting">connecting...</string><string name="title_connected_to">connected to <ns1:g id="device_name">%1$s</ns1:g></string><string name="title_not_connected">not connected</string><string name="scanning">scanning for devices...</string><string name="select_device">select a device to connect</string><string name="none_paired">No devices have been paired</string><string name="none_found">No devices found</string><string name="title_paired_devices">Paired Devices</string><string name="title_other_devices">Other Available Devices</string><string name="button_scan">Scan for devices</string><string name="secure_connect">CBT - Connect a device (Secure)</string><string name="insecure_connect">CBT - Connect a device (Insecure)</string><string name="discoverable">CBT - Make discoverable</string><string name="ble_advertise">BLE - Advertise</string><string name="ble_discover">BLE - Discover</string><string name="advertising">Advertising</string><string name="title_activity_blediscovering">BLE Discovering</string></file><file path="/Users/davidma/Code/RemakeFinalBLE/Application/src/main/res/values/template-dimens.xml" qualifiers=""><dimen name="margin_tiny">4dp</dimen><dimen name="margin_small">8dp</dimen><dimen name="margin_medium">16dp</dimen><dimen name="margin_large">32dp</dimen><dimen name="margin_huge">64dp</dimen><dimen name="horizontal_page_margin">@dimen/margin_medium</dimen><dimen name="vertical_page_margin">@dimen/margin_medium</dimen></file><file path="/Users/davidma/Code/RemakeFinalBLE/Application/src/main/res/values/fragmentview_strings.xml" qualifiers=""><string name="sample_show_log">Show Log</string><string name="sample_hide_log">Hide Log</string></file><file path="/Users/davidma/Code/RemakeFinalBLE/Application/src/main/res/values/template-styles.xml" qualifiers=""><style name="Theme.Base" parent="android:Theme.Light"/><style name="Theme.Sample" parent="Theme.Base"/><style name="AppTheme" parent="Theme.Sample"/><style name="Widget"/><style name="Widget.SampleMessage">
         <item name="android:textAppearance">?android:textAppearanceMedium</item>

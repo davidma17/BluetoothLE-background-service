@@ -19,20 +19,20 @@
     <string name="app_name">BluetoothChat</string>
     <string name="intro_message">
         <![CDATA[
-        
-            Test.
-            <!--This application allows two Android devices to carry out two-way text chat over-->
-            <!--Bluetooth Low Energy or Classic Bluetooth. It demonstrates all the fundamental-->
-            <!--BluetoothLE API capabilites, such as:-->
-              <!--(1) Scanning for other Bluetooth devices-->
-              <!--(2) Discovering BLE nearby devices that are advertising-->
-              <!--(3) Advertise the Chat service to nearby devices-->
-              <!--(4) Querying the local Bluetooth adapter for paired Bluetooth devices-->
-              <!--(5) Establishing RFCOMM channels/sockets-->
-              <!--(6) Connecting to a remote device-->
-              <!--(7) Transfering data over Bluetooth-->
-            <!---->
-        
+
+
+            This application allows two Android devices to carry out two-way text chat over
+            Bluetooth Low Energy or Classic Bluetooth. It demonstrates all the fundamental
+            BluetoothLE API capabilites, such as:
+              (1) Scanning for other Bluetooth devices
+              (2) Discovering BLE nearby devices that are advertising
+              (3) Advertise the Chat service to nearby devices
+              (4) Querying the local Bluetooth adapter for paired Bluetooth devices
+              (5) Establishing RFCOMM channels/sockets
+              (6) Connecting to a remote device
+              (7) Transfering data over Bluetooth
+
+
         ]]>
     </string>
 </resources>
