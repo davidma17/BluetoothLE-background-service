@@ -42,6 +42,15 @@
         android:label="@string/app_name"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <receiver
+            android:name="com.example.android.ble.Restarter"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="restartservice" />
+            </intent-filter>
+        </receiver>
+
         <activity
             android:name="com.example.android.bluetoothchat.MainActivity"
             android:configChanges="orientation|keyboardHidden"
@@ -52,6 +61,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <service
+            android:name="com.example.android.ble.MyService"
+            android:enabled="true" >
+        </service>
+
         <activity android:name="com.example.android.ble.BLEAdvertisingActivity" />
         <activity
             android:name="com.example.android.ble.BLEDiscoveringActivity"

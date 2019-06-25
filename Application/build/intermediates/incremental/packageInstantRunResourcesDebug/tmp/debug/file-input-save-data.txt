@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Jun 25 09:14:38 EDT 2019
+#Tue Jun 25 12:50:23 EDT 2019
 1.base=/Users/davidma/Code/RemakeFinalBLE/Application/build/intermediates/merged_assets/debug/out
 2.path=signal.gif
 0.baseType=DIRECTORY
