@@ -33,7 +33,7 @@ public class MyService extends Service {
         startTimer();
         makeToast("onStartCommand!");
         RestartedActivity ra = new RestartedActivity();
-        ra.logTest();
+        ra.reconnect();
         return START_STICKY;
     }
 

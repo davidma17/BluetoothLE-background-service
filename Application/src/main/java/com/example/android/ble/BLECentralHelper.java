@@ -137,10 +137,30 @@ public class BLECentralHelper {
      * @param device
      * @param events
      */
+    Context con;
+    BluetoothDevice dev;
+    BLECentralChatEvents ev;
+
     public void connect(Context context, BluetoothDevice device, BLECentralChatEvents events){
+        con = context;
+        dev = device;
+        ev = events;
         mBleChatEvents = events;
         mConnectedGatt = device.connectGatt(context, false, mGattCallback);
     }
+
+    public Context getContext(){
+        return con;
+    }
+
+    public BluetoothDevice getDev(){
+        return dev;
+    }
+
+    public BLECentralChatEvents getCCE(){
+        return ev;
+    }
+
 
     public BluetoothGattCallback mGattCallback = new BluetoothGattCallback(){
         @Override
@@ -278,4 +298,6 @@ public class BLECentralHelper {
     public void send(String msg){
         send(msg.getBytes());
     }
+
+    public BluetoothGatt getmConnectedGatt(){return mConnectedGatt;}
 }
