@@ -49,6 +49,7 @@ import com.example.android.ble.BLEMode;
 //import com.example.android.ble.BLECentralChatEvents;
 //import com.example.android.ble.BLEDiscoveringActivity;
 //import com.example.android.ble.BLEPeripheralChatEvents;
+import com.example.android.ble.BLEPeripheralChatEvents;
 import com.example.android.ble.BLEPeripheralHelper;
 import com.example.android.common.logger.Log;
 
@@ -532,63 +533,63 @@ public class BluetoothChatFragment extends Fragment {
 //    };
 //
 //
-//    /**
-//     * [Peripheral device role]
-//     * <p>
-//     * A Central device is connecting to us
-//     *
-//     * @param data
-//     */
-//    private void bleDeviceConnecting(Intent data) {
-//        mBleMode = BLEMode.PERIPHERAL;
-//        if (mChatService != null)
-//            mChatService.stop();
-//        //showConnectedName(data.getExtras().getString(BLEAdvertisingActivity.EXTRA_CLIENT_NAME));
-//        showStatus(BluetoothChatService.STATE_CONNECTED);
-//        BLEPeripheralHelper.getInstance().register(mBlePeripheralChatEvents);
-//    }
-//
-//    private BLEPeripheralChatEvents mBlePeripheralChatEvents = new BLEPeripheralChatEvents() {
-//        private Object mLock = new Object();
-//
-//        @Override
-//        public void onClientDisconnect(BluetoothDevice device) {
-//            synchronized (mLock) {
-//                showInfo(device.getName() + " disconnected");
-//                setStatus(R.string.title_not_connected);
-//            }
-//        }
-//
-//        @Override
-//        public void onMessage(String msg) {
-//            synchronized (mLock) {
-//                processIncomingMsg(msg);
-//            }
-//        }
-//
-//        @Override
-//        public void onInfo(String info) {
-//            synchronized (mLock) {
-//                showInfo(info);
-//            }
-//        }
-//
-//        @Override
-//        public void onConnectionError(String error) {
-//            synchronized (mLock) {
-//                showInfo("[!] Error : " + error);
-//            }
-//        }
-//    };
-//
-//    private void processIncomingMsg(String msg) {
-//        if (msg.startsWith("/")) {
-//            String[] tokens = msg.split(" ", 2);
-//            if (tokens[0].compareTo("/name") == 0) {
-//                showConnectedName(tokens[1]);
-//            }
-//        } else {
-//            showIncomingMessage(msg);
-//        }
-//    }
+    /**
+     * [Peripheral device role]
+     * <p>
+     * A Central device is connecting to us
+     *
+     * @param data
+     */
+    private void bleDeviceConnecting(Intent data) {
+        mBleMode = BLEMode.PERIPHERAL;
+        if (mChatService != null)
+            mChatService.stop();
+        //showConnectedName(data.getExtras().getString(BLEAdvertisingActivity.EXTRA_CLIENT_NAME));
+        showStatus(BluetoothChatService.STATE_CONNECTED);
+        BLEPeripheralHelper.getInstance().register(mBlePeripheralChatEvents);
+    }
+
+    private BLEPeripheralChatEvents mBlePeripheralChatEvents = new BLEPeripheralChatEvents() {
+        private Object mLock = new Object();
+
+        @Override
+        public void onClientDisconnect(BluetoothDevice device) {
+            synchronized (mLock) {
+                showInfo(device.getName() + " disconnected");
+                setStatus(R.string.title_not_connected);
+            }
+        }
+
+        @Override
+        public void onMessage(String msg) {
+            synchronized (mLock) {
+                processIncomingMsg(msg);
+            }
+        }
+
+        @Override
+        public void onInfo(String info) {
+            synchronized (mLock) {
+                showInfo(info);
+            }
+        }
+
+        @Override
+        public void onConnectionError(String error) {
+            synchronized (mLock) {
+                showInfo("[!] Error : " + error);
+            }
+        }
+    };
+
+    private void processIncomingMsg(String msg) {
+        if (msg.startsWith("/")) {
+            String[] tokens = msg.split(" ", 2);
+            if (tokens[0].compareTo("/name") == 0) {
+                showConnectedName(tokens[1]);
+            }
+        } else {
+            showIncomingMessage(msg);
+        }
+    }
 }
