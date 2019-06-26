@@ -7,6 +7,7 @@ import android.os.IBinder;
 import android.support.annotation.Nullable;
 import android.widget.Toast;
 
+import com.example.android.bluetoothchat.MainActivity;
 import com.example.android.common.logger.Log;
 
 import java.util.Timer;
@@ -32,12 +33,36 @@ public class MyService extends Service {
         super.onStartCommand(intent, flags, startId);
         startTimer();
         makeToast("onStartCommand!");
+
         RestartedActivity ra = new RestartedActivity();
+//        Timer raTimer = new Timer();
+//        TimerTask raTimerTask = new TimerTask() {
+//            public void run() {
+//                Log.i("raTimerTask", "confirmation");
+//                ra.centralReconnect();
+//                ra.peripheralReconnect();
+//            }
+//        };
+//        raTimer.schedule(raTimerTask, 0, 1000);
+
+//        if(!firstTime) {
+//            while(!ra.getCentralRunning()){
+//                Log.i("raCentral", "Central trying to connect");
+//                ra.centralReconnect();
+//            }
+//
+//            while(!ra.getPeripheralRunning()){
+//                Log.i("raPeripheral", "Peripheral trying to connect");
+//                ra.peripheralReconnect();
+//            }
+//        }
+
         ra.centralReconnect();
-        ra.peripheralReconnect();
+        if(!ra.getPeripheralRunning()){
+            ra.peripheralReconnect();
+        }
         return START_STICKY;
     }
-
 
     @Override
     public void onDestroy() {
@@ -49,8 +74,6 @@ public class MyService extends Service {
         broadcastIntent.setClass(this, Restarter.class);
         this.sendBroadcast(broadcastIntent);
     }
-
-
 
     private Timer timer;
     private TimerTask timerTask;

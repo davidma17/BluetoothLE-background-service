@@ -48,6 +48,8 @@ public class MainActivity extends SampleActivityBase {
     // Whether the Log Fragment is currently shown
     private boolean mLogShown;
 
+    BluetoothChatFragment fragment;
+
     Intent mServiceIntent;
     private MyService mMyService;
 
@@ -58,7 +60,10 @@ public class MainActivity extends SampleActivityBase {
 
         if (savedInstanceState == null) {
             FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-            BluetoothChatFragment fragment = new BluetoothChatFragment();
+            if(fragment == null) {
+                Log.d("MAINACTIVITYDEBUGGER", "New Fragment Created");
+                fragment = new BluetoothChatFragment();
+            }
             transaction.replace(R.id.sample_content_fragment, fragment);
             transaction.commit();
         }

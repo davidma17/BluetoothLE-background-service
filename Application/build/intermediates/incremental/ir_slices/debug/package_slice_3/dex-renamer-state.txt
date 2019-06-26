@@ -1,4 +1,4 @@
-#Wed Jun 26 15:40:48 EDT 2019
+#Wed Jun 26 17:30:35 EDT 2019
 base.0=/Users/davidma/Code/RemakeFinalBLE/Application/build/intermediates/transforms/dexMerger/debug/3
 path.0=classes.dex
 renamed.0=classes.dex

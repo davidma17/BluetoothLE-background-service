@@ -19,7 +19,11 @@ public class RestartedActivity {
 
     class CentralSayHello extends TimerTask {
         public void run() {
+//            if(!peripheralIsRunning){
+//                peripheralReconnect();
+//            }
             Log.d("RESTARTDEBUGGER", "Central reached TimerTask!");
+            Log.d("RESTARTDEBUGGER", "Peripheral? " + peripheralIsRunning);
             if(BLECentralHelper.getInstance() == null || BLECentralHelper.getInstance().getmConnectedGatt() == null){
                 Log.d("RESTARTDEBUGGER", "Central instance is null!");
             } else {
@@ -29,16 +33,20 @@ public class RestartedActivity {
     }
 
     protected void centralReconnect(){
-        if(BLECentralHelper.getInstance().getmConnectedGatt() != null  && !centralIsRunning){
-            Log.i(TAG, "ConnectedGATT is: " + BLECentralHelper.getInstance().getmConnectedGatt().toString());
-            Context con = BLECentralHelper.getInstance().getContext();
-            BluetoothDevice dev = BLECentralHelper.getInstance().getDev();
-            BLECentralChatEvents ev = BLECentralHelper.getInstance().getCCE();
+        if(BLECentralHelper.getInstance().getmConnectedGatt() != null){
+            if(!centralIsRunning){
+                Log.i(TAG, "ConnectedGATT is: " + BLECentralHelper.getInstance().getmConnectedGatt().toString());
+                Context con = BLECentralHelper.getInstance().getContext();
+                BluetoothDevice dev = BLECentralHelper.getInstance().getDev();
+                BLECentralChatEvents ev = BLECentralHelper.getInstance().getCCE();
 
-            BLECentralHelper.getInstance().connect(con, dev, ev);
-            Timer timer = new Timer();
-            timer.schedule(new CentralSayHello(), 5000, 2000);
-            centralIsRunning = true;
+                BLECentralHelper.getInstance().connect(con, dev, ev);
+                Timer timer = new Timer();
+                timer.schedule(new CentralSayHello(), 5000, 2000);
+                centralIsRunning = true;
+            } else {
+                Log.i(TAG, "Central is already running!");
+            }
         } else {
             Log.i(TAG, "Uhh.. ConnectedGATT is null");
         }
@@ -67,10 +75,14 @@ public class RestartedActivity {
     }
 
     protected void peripheralReconnect(){
-        if(BLEPeripheralHelper.getInstance().getConnectedDevices() != null && !BLEPeripheralHelper.getInstance().getConnectedDevices().isEmpty() && !peripheralIsRunning){
-            Timer timer = new Timer();
-            timer.schedule(new PeripheralSayHello(), 5000, 2000);
-            peripheralIsRunning = true;
+        if(BLEPeripheralHelper.getInstance().getConnectedDevices() != null && !BLEPeripheralHelper.getInstance().getConnectedDevices().isEmpty()){
+            if(!peripheralIsRunning){
+                Timer timer = new Timer();
+                timer.schedule(new PeripheralSayHello(), 5000, 2000);
+                peripheralIsRunning = true;
+            } else {
+                Log.i(TAG, "Peripheral is already running!");
+            }
         } else {
             Log.i(TAG, "Uhh.. BLEPeripheralHelper is null");
         }
@@ -86,5 +98,13 @@ public class RestartedActivity {
 //        Timer timer = new Timer();
 //        timer.schedule(new PeripheralReconnecter(), 0, 1000);
 //    }
+
+    public boolean getCentralRunning(){
+        return centralIsRunning;
+    }
+
+    public boolean getPeripheralRunning(){
+        return peripheralIsRunning;
+    }
 }
 
