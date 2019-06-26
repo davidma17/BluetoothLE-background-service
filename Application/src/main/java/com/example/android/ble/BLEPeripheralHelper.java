@@ -482,5 +482,9 @@ public class BLEPeripheralHelper {
             mGattServer.notifyCharacteristicChanged(device, msgCharacteristic, false);
         }
     }
+
+    public ArrayList<BluetoothDevice> getConnectedDevices(){
+        return mConnectedDevices;
+    }
 }
 
