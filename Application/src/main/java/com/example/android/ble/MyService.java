@@ -5,9 +5,7 @@ import android.app.Service;
 import android.content.Intent;
 import android.os.IBinder;
 import android.support.annotation.Nullable;
-import android.widget.Toast;
 
-import com.example.android.bluetoothchat.MainActivity;
 import com.example.android.common.logger.Log;
 
 import java.util.Timer;
@@ -20,19 +18,12 @@ public class MyService extends Service {
     public void onCreate() {
         super.onCreate();
         startForeground(1, new Notification());
-        makeToast("onCreate!");
     }
-
-    public void makeToast(String msg){
-        Toast.makeText(getApplicationContext(),msg,Toast.LENGTH_SHORT).show();
-    }
-
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
         super.onStartCommand(intent, flags, startId);
         startTimer();
-        makeToast("onStartCommand!");
 
         RestartedActivity ra = new RestartedActivity();
 
@@ -44,7 +35,7 @@ public class MyService extends Service {
     @Override
     public void onDestroy() {
         super.onDestroy();
-        stoptimertask();
+        stopTimerTask();
 
         Intent broadcastIntent = new Intent();
         broadcastIntent.setAction("restartservice");
@@ -64,7 +55,7 @@ public class MyService extends Service {
         timer.schedule(timerTask, 1000, 1000); //
     }
 
-    public void stoptimertask() {
+    public void stopTimerTask() {
         if (timer != null) {
             timer.cancel();
             timer = null;

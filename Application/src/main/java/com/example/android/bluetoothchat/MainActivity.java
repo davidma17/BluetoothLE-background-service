@@ -27,7 +27,6 @@ import android.view.MenuItem;
 import android.widget.ViewAnimator;
 
 import com.example.android.ble.MyService;
-import com.example.android.ble.RestartedActivity;
 import com.example.android.common.activities.SampleActivityBase;
 import com.example.android.common.logger.Log;
 import com.example.android.common.logger.LogFragment;
@@ -50,6 +49,7 @@ public class MainActivity extends SampleActivityBase {
 
     BluetoothChatFragment fragment;
 
+    // Background service adapted from https://stackoverflow.com/questions/30525784/android-keep-service-running-when-app-is-killed
     Intent mServiceIntent;
     private MyService mMyService;
 

@@ -10,8 +10,6 @@ import java.util.TimerTask;
 
 public class RestartedActivity {
     public static final String TAG = "RestartedActivity";
-    private boolean centralIsRunning = false;
-    private boolean peripheralIsRunning = false;
 
     class CentralSayHello extends TimerTask {
         public void run() {
@@ -26,18 +24,13 @@ public class RestartedActivity {
 
     protected void centralReconnect(){
         if(BLECentralHelper.getInstance().getmConnectedGatt() != null){
-            if(!centralIsRunning){
-                Context con = BLECentralHelper.getInstance().getContext();
-                BluetoothDevice dev = BLECentralHelper.getInstance().getDev();
-                BLECentralChatEvents ev = BLECentralHelper.getInstance().getCCE();
+            Context con = BLECentralHelper.getInstance().getContext();
+            BluetoothDevice dev = BLECentralHelper.getInstance().getDev();
+            BLECentralChatEvents ev = BLECentralHelper.getInstance().getCCE();
 
-                BLECentralHelper.getInstance().connect(con, dev, ev);
-                Timer timer = new Timer();
-                timer.schedule(new CentralSayHello(), 5000, 2000);
-                centralIsRunning = true;
-            } else {
-                Log.i(TAG, "Central is already running!");
-            }
+            BLECentralHelper.getInstance().connect(con, dev, ev);
+            Timer timer = new Timer();
+            timer.schedule(new CentralSayHello(), 5000, 2000);
         } else {
             Log.i(TAG, "Uhh.. ConnectedGATT is null");
         }
@@ -57,17 +50,14 @@ public class RestartedActivity {
     protected void peripheralReconnect(){
         Log.i(TAG, "PeripheralReconnect called!");
         if(BLEPeripheralHelper.getInstance().getConnectedDevices() != null && !BLEPeripheralHelper.getInstance().getConnectedDevices().isEmpty()){
-            if(!peripheralIsRunning){
                 Timer timer = new Timer();
                 timer.schedule(new PeripheralSayHello(), 5000, 2000);
-                peripheralIsRunning = true;
-                Log.i(TAG, "Connected peripheral!");
-            } else {
-                Log.i(TAG, "Peripheral is already running!");
-            }
         } else {
             Log.i(TAG, "Uhh.. BLEPeripheralHelper is null");
         }
     }
+
+
+
 }
 
