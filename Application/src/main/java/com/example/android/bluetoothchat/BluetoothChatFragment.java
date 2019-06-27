@@ -196,18 +196,6 @@ public class BluetoothChatFragment extends Fragment {
         mOutStringBuffer = new StringBuffer("");
     }
 
-//    /**
-//     * Makes this device discoverable.
-//     */
-//    private void ensureDiscoverable() {
-//        if (mBluetoothAdapter.getScanMode() !=
-//                BluetoothAdapter.SCAN_MODE_CONNECTABLE_DISCOVERABLE) {
-//            Intent discoverableIntent = new Intent(BluetoothAdapter.ACTION_REQUEST_DISCOVERABLE);
-//            discoverableIntent.putExtra(BluetoothAdapter.EXTRA_DISCOVERABLE_DURATION, 300);
-//            startActivity(discoverableIntent);
-//        }
-//    }
-
     /**
      * The action listener for the EditText widget, to listen for the return key
      */
@@ -262,6 +250,7 @@ public class BluetoothChatFragment extends Fragment {
      **/
 
     private void showIncomingMessage(String msg) {
+        Log.i("MESSAGE RECEIVER", "Message received!!: " + msg);
         mHandler.obtainMessage(Constants.MESSAGE_READ, msg.length(), -1, msg.getBytes())
                 .sendToTarget();
     }
@@ -360,19 +349,6 @@ public class BluetoothChatFragment extends Fragment {
 
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         switch (requestCode) {
-//            case REQUEST_ENABLE_BT:
-//                // When the request to enable Bluetooth returns
-//                if (resultCode == Activity.RESULT_OK) {
-//                    // Bluetooth is now enabled, so set up a chat session
-//                    setupChat();
-//                } else {
-//                    // User did not enable Bluetooth or an error occurred
-//                    Log.d(TAG, "BT not enabled");
-//                    Toast.makeText(getActivity(), R.string.bt_not_enabled_leaving,
-//                            Toast.LENGTH_SHORT).show();
-//                    getActivity().finish();
-//                }
-//                break;
             case BLE_REQUEST_CONNECT_DEVICE:
                 if (resultCode == Activity.RESULT_OK) {
                     connectBleDevice(data);
@@ -402,7 +378,6 @@ public class BluetoothChatFragment extends Fragment {
                 startScanning();
                 return true;
             }
-
         }
         return false;
     }

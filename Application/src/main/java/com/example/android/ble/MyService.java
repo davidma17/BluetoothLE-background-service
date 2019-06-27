@@ -35,32 +35,9 @@ public class MyService extends Service {
         makeToast("onStartCommand!");
 
         RestartedActivity ra = new RestartedActivity();
-//        Timer raTimer = new Timer();
-//        TimerTask raTimerTask = new TimerTask() {
-//            public void run() {
-//                Log.i("raTimerTask", "confirmation");
-//                ra.centralReconnect();
-//                ra.peripheralReconnect();
-//            }
-//        };
-//        raTimer.schedule(raTimerTask, 0, 1000);
-
-//        if(!firstTime) {
-//            while(!ra.getCentralRunning()){
-//                Log.i("raCentral", "Central trying to connect");
-//                ra.centralReconnect();
-//            }
-//
-//            while(!ra.getPeripheralRunning()){
-//                Log.i("raPeripheral", "Peripheral trying to connect");
-//                ra.peripheralReconnect();
-//            }
-//        }
 
         ra.centralReconnect();
-        if(!ra.getPeripheralRunning()){
-            ra.peripheralReconnect();
-        }
+        ra.peripheralReconnect();
         return START_STICKY;
     }
 

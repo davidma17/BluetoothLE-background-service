@@ -61,7 +61,6 @@ public class MainActivity extends SampleActivityBase {
         if (savedInstanceState == null) {
             FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
             if(fragment == null) {
-                Log.d("MAINACTIVITYDEBUGGER", "New Fragment Created");
                 fragment = new BluetoothChatFragment();
             }
             transaction.replace(R.id.sample_content_fragment, fragment);

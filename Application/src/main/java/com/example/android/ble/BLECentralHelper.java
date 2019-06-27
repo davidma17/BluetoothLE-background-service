@@ -147,6 +147,7 @@ public class BLECentralHelper {
         ev = events;
         mBleChatEvents = events;
         mConnectedGatt = device.connectGatt(context, false, mGattCallback);
+//        firstConnect = false;
     }
 
     public Context getContext(){
